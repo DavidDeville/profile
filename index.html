@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,100;1,600&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <title>Profile</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <script>
+  window.addEventListener('DOMContentLoaded', () => {
+    VANTA.NET({
+    el: "#vanta",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0xc8afb0
+  })
+  })
+  </script>
+</head>
+<body>
+  <div id="vanta"></div>
+  <div class="container">
+    <div class="card">
+      <h1 class="h1-color">David DE VILLE</h1>
+      <img class="img-circle" src="images/profile.jpg" alt="David DE VILLE">
+      <p class="card_p_margin">Développeur Web (backend), j'apprécie particulièrement Ruby (Rails) et PHP (Symfony).</p>
+      <a class="btn-blue">My Github</a>
+    </div>
+    <div class="card">
+      <h3>Mes réseaux :</h3>
+      <ul class="list-inline">
+        <li>
+          <a href="https://twitter.com/Deville_Davidx">
+            <i class="fa-brands fa-square-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/david-de-ville/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
